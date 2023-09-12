@@ -1,0 +1,8 @@
+.counts{
+    background-color: rgb(239, 235, 235);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}

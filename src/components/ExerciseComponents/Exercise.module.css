@@ -1,0 +1,18 @@
+.NavBar {
+    background-image: linear-gradient(rgba(32, 33, 33, 0.208),rgba(10, 11, 11, 0.459)), url("https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/hero/workouts.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .navtitle {
+    color: white;
+    font-weight: 800;
+    font-size: 80px;
+  }
+  .navtext {
+    font-size: 20px;
+  }

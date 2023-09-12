@@ -1,0 +1,102 @@
+/* -----------------header--------------------- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.heading {
+  color: white;
+  background-color: #ff4c01;
+  padding: 10px;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.btn {
+  background-color: rgb(121, 193, 201);
+  color: white;
+  padding: 10px;
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+
+/* -------------------navigation------------ */
+
+.logo {
+  width: 390px;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  padding: 20px;
+}
+.searchbar {
+  flex: 1;
+  padding: 20px;
+}
+input {
+  width: 600px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+input::placeholder {
+  padding: 10px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.charts {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 15px;
+  text-align: center;
+  color: red;
+}
+
+.charts li a {
+  color: white;
+  text-decoration: none;
+}
+
+.address {
+  padding: 20px;
+  width: 390px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.Navigation {
+  background-color: #059;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* --------------exercise------------------ */
+.NavBar {
+  background-image: linear-gradient(rgba(32, 33, 33, 0.886),rgba(10, 11, 11, 0.858)), url("https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/hero/workouts.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navtitle {
+  color: white;
+  font-weight: 800;
+  font-size: 80px;
+}
+.navtext {
+  font-size: 20px;
+}
+.exc {
+  font-size: 28px;
+  font-weight: 700;
+}

@@ -1,0 +1,16 @@
+.paragraph{
+    background-color:white;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing:1px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+}
+.supliments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: blue;
+    background-color: white;
+}

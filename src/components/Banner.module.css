@@ -1,0 +1,23 @@
+.bg{
+    background-image: linear-gradient(rgba(10, 20, 30, 0.368), rgba(10, 20, 30, 0.322)), url("https://cdn.muscleandstrength.com/sites/default/files/advanced_bodybuilder_workout_-_1200x630.jpg");
+    background-position:center;
+    background-size: cover;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.Main-text{
+
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    width: 600px;
+    padding: 20px;
+    
+
+    
+}
+

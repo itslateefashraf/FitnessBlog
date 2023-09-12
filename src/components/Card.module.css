@@ -1,0 +1,32 @@
+.container {
+  background-color: white;
+  width: 100%;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card1 {
+  width: 400px;
+  padding: 30px;
+}
+.image {
+  max-width: 100%;
+  height: auto;
+}
+.musclebuilding h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: blue;
+  margin-top: 10px;
+  background-color: white;
+  font-weight: 800;
+}
+.details{
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
