@@ -28,6 +28,9 @@
 .imageinfo{
     font-size: 26px;
     text-align: center;
+    text-transform: uppercase;
+    text-decoration:none;
+    color:black;
 }
 
 .MuscleGroupExercise{

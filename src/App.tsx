@@ -10,6 +10,7 @@ import { Route, Routes } from 'react-router-dom'
 import { Home } from './components/Home'
 import Exercise from './components/ExerciseComponents/Exercises';
 import DietChart from './components/DietPlans/DietChart';
+import ExerciseDetail from './components/ExerciseDetail/ExerciseDetail';
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/exercise" element={<Exercise />}></Route>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/exercise/:id" element={<ExerciseDetail />}></Route>
             <Route path="/DietChart" element={<DietChart />}></Route>
           </Routes>
           
@@ -29,5 +32,6 @@ function App() {
     </>
   );
 }
+
 
 export default App

@@ -11,12 +11,12 @@ const MuscleGroup = () => {
     },
     {
       id:2,
-      img: "https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/abductors.jpg",
+      img: "https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/abs_0.jpg",
       detail: "Abbs",
     },
     {
       id:3,
-      img: "https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/abductors.jpg",
+      img: "https://cdn.muscleandstrength.com/sites/default/files/taxonomy/image/videos/biceps_0.jpg",
       detail: "Biceps",
     },
   ]);
@@ -35,7 +35,7 @@ const MuscleGroup = () => {
       <div className={MuscleGroupstyles["MuscleGroup"]}>
         {images.map((image) => {
           return (
-            <Link to="/exercise/1">
+            <Link to={`/exercise/${image.id}`}>
               <div className={MuscleGroupstyles["MuscleGroupExercise"]} >
                 
                 <img
@@ -43,6 +43,7 @@ const MuscleGroup = () => {
                   src={image.img}
                   alt=""
                 />
+                
                 <p className={MuscleGroupstyles["imageinfo"]}>{image.detail}</p>
               </div>
             </Link>

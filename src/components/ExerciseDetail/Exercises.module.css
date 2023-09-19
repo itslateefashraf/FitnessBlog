@@ -1,0 +1,73 @@
+
+.abductorMachine{
+    width: 300px;
+    height: 200px;
+}
+.abductor{
+    width: 30%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.cableHip{
+   width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 30px;
+    gap: 10px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin-left: 110px;
+    margin-right: 110px;
+  
+    
+    
+}
+.cabelAbduction{
+    font-size: 20px;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+
+}
+.bestAbductor{
+    font-size: 20px;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 350px;
+
+}
+hr{
+    border: 2px solid rgb(9, 65, 148);
+    margin-left: 110px;
+    margin-right: 110px;
+  
+}
+.exeBtn{
+    width: 150px;
+    padding: 10px;
+    background-color: #059;
+    background-image: linear-gradient(#0063b3,#004780);
+    color: #fefefe;
+    text-shadow: 1px 1px 0 #004780;
+    border: 1px solid #004a85;
+    font-size: 15px;
+    cursor: pointer;
+}
+.exeBtn:hover{
+    color:#9bacba;
+    background-color:#1f5d8f;
+}
+.exeDetail{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
